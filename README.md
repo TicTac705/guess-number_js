@@ -11,6 +11,7 @@
 
 ## Инструкция по запуску игры
 
-Перейти по ссылке : <https://packagist.org/packages/geraskin_vm/guess-number>
+1. Перейти по ссылке : <https://tictac705.github.io/guess-number_js/>
+2. Следовать указанием игры.
 
 * * *
