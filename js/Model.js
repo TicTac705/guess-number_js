@@ -40,12 +40,12 @@ export function checkNumber() {
         if (var_num_attempt !== 0) {
             getNumber = Number(field_getNumber.value);
             if (getNumber < hidden_number) {
-                messageOutput("less");
                 var_num_attempt--;
+                messageOutput("less");
             }
             if (getNumber > hidden_number) {
-                messageOutput("more");
                 var_num_attempt--;
+                messageOutput("more");
             }
             if (getNumber === hidden_number) {
                 messageOutput("win");

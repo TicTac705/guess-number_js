@@ -35,7 +35,7 @@ export function informationOutput() {
         block_showGame.style.display = 'none';
 
         text_info.innerHTML = "Рад познакомиться, <b>" + userName + "</b>! Давай сыграем в игру \"Угадай число\"." +
-            "Ее суть состоит в том, что я загадываю число<b> от 1 до " + max_num +
+            " Ее суть состоит в том, что я загадываю число<b> от 1 до " + max_num +
             "</b> и ты должен отгадать число за <b>" + num_attempt + "</b> попыток.";
     }
 }
@@ -63,8 +63,8 @@ export function messageOutput(type_message) {
         block_message.style.display = 'none';
         block_showGame.style.display = 'none';
         block_result.style.display = 'flex';
-        block_resultText.innerHTML = "Поздравляю! Ты отгадал число" + hidden_number +
-            " c " + (num_attempt - var_num_attempt) + " попытки";
+        block_resultText.innerHTML = "Поздравляю! Ты отгадал число " + hidden_number +
+            " c " + (num_attempt - var_num_attempt) + "-й попытки";
     }
     if (type_message === "loss") {
         block_message.style.display = 'none';
